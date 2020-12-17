@@ -34,7 +34,7 @@ objects:
       name: mongo-express
     clusterIP: None
     selector:
-      app: mongodb
+      app: mongo-express
 - apiVersion: apps/v1
   kind: Deployment
   metadata:
